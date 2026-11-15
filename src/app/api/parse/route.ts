@@ -6,7 +6,8 @@ import type { Page, SourceInfo } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
-export const maxDuration = 120;
+// 60 s keeps this deployable on Vercel's Hobby plan; OCR needs ~10–12 s cold.
+export const maxDuration = 60;
 
 const MAX_BYTES = 12 * 1024 * 1024;
 const MAX_OCR_PAGES = 3;

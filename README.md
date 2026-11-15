@@ -4,6 +4,8 @@ Upload a college timetable **PDF or photo** → get an `.ics` file where every c
 
 No accounts. No database. No third-party OCR API. One server request, then the file is gone.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Mayank17OP/SEproject)
+
 ```
 ┌──────────────┐   ┌──────────────────────────────┐   ┌────────────────────┐
 │ timetable.pdf│ → │ pdf.js text layer  ──┐       │ → │ review + edit      │ → calendar.ics
