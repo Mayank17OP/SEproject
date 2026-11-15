@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+vendor
+.cache
+coverage
+.git
+.github
+.scratch
+*.log

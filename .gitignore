@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+*.tsbuildinfo
+
+# generated OCR assets (recreated by `npm install` → postinstall)
+vendor/
+.cache/
+
+# test output
+coverage/
+
+# local scratch
+.scratch/
+
+# env / editors / os
+.env
+.env.local
+.env*.local
+.DS_Store
+.idea/
+.vscode/
+*.log
+.vercel
